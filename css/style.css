@@ -1,0 +1,677 @@
+/*===ПОДКЛЮЧЕНИЕ ШРИФТОВ===*/
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Inter:wght@300&family=Montserrat:ital,wght@0,400;0,700;0,800;0,900;1,800&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: .1s;
+}
+
+body {
+    background-color: #FFFFED;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+p,
+.footer_div a {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+}
+
+/*=======================================================HEADER===========================================================*/
+/*==============================NAVIGATION=========================*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 76%;
+    margin: auto;
+    padding: 15px;
+    padding-left: 125px;
+    gap: 50px;
+    border-bottom: 0.9px solid #000;
+}
+
+.p_nav {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+/*===============================HEADER============================*/
+/* body {
+    background-image: url(/img/белый\ фон\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 780px;
+} */
+
+/* .body {
+    background: linear-gradient(610.69deg, rgba(255, 255, 237, 0)0.79%, rgba(255, 255, 237, 0.26) 26.65%, rgba(255, 255, 237, 0.182), rgb(255, 255, 237) 55%, 50%, #FFFFED 75%, #FFFFED 102.83%);
+    border-radius: 0 904px/130px 0 904px/130px; 
+    background-image: url(/img/Vector\ 109.svg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+} */
+header {
+    background-image: url(/img/header.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -0.5px;
+    padding-bottom: 160px;
+}
+
+.header_h1 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 58px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header_info {
+    display: flex;
+    margin: auto;
+    padding-left: 125px;
+    width: 80%;
+    padding-top: 115px;
+    gap: 65px;
+    padding-bottom: 90px;
+}
+
+.header_text {
+    width: 338px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.header_sush_text {
+    line-height: 28px;
+}
+
+.header_info img {
+    padding-top: 80px;
+}
+
+.header_button {
+    width: 338px;
+    height: 70px;
+    border-radius: 36px;
+    background-color: #FF042D;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_button p {
+    font-size: 22px;
+}
+
+.header_button:hover {
+    color: #FF042D;
+    background-color: #ffffed00;
+}
+
+/*=========================================================MAIN=============================================================*/
+/*===============================CARDS============================*/
+.main_cards {
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    margin-bottom: 140px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.card {
+    width: 170px;
+    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.card h4 {
+    text-align: center;
+    width: 216px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    height: 88px;
+    display: flex;
+    align-items: flex-end;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.card_img {
+    width: 81px;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/*===============================ADVANTAGES - ПРЕИМУЩЕСТВА============================*/
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 500px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900px;
+    font-size: 376.55px;
+    color: #c2ccf24d;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    font-size: 26px;
+}
+
+.main_prem {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    margin: auto;
+    margin-top: 120px;
+    align-items: center;
+    margin-bottom: 250px;
+    flex-wrap: wrap;
+}
+
+.prem {
+    display: flex;
+    gap: 1%;
+}
+
+.prem-number {
+    position: absolute;
+    margin-top: -60px;
+    left: 363px;
+}
+
+.prem-text {
+    width: 463px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding-top: 200px;
+}
+
+/*1 преимущество*/
+
+.prem_1 .prem-text {
+    padding-right: 230px;
+}
+
+/*2 преимущество*/
+
+.prem_2 .prem-number {
+    margin-top: -95px;
+    left: 1000px;
+}
+
+.prem_2 .prem-text {
+    padding-top: 150px;
+    margin-left: 280px;
+}
+
+/*3 преимущество*/
+.apple {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.apple_img {
+    width: 70%;
+}
+.prem_apple {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 80px;
+    flex-wrap: wrap;
+}
+
+.prem_3 .prem-number {
+    margin-top: -25px;
+}
+
+.prem_3 .prem-text {
+    padding-left: 170px;
+}
+
+/*4 преимущество*/
+
+.prem_4 .prem-number {
+    margin-top: -62px;
+    left: 1000px;
+}
+
+.prem_4 .prem-text {
+    margin-left: 180px;
+    padding-left: 155px;
+}
+
+/*5 преимущество*/
+
+.prem_5 .prem-number {
+    margin-top: -65px;
+}
+
+.prem_5 .prem-text {
+    padding-right: 240px;
+}
+
+/*=================================DRYER - СУШИЛКА===============================*/
+.main_dryer {
+    background-color: #C2CCF2;
+    border-radius: 50%/5%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    box-shadow: inset 0px 4px 23px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.main_dryer img {
+    width: 60%;
+}
+
+
+/*=================================FITNESS - ПРИГОДНОСТЬ===============================*/
+h5 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600px;
+}
+
+.article_fitness {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-bottom: 120px;
+    border-radius: 50%/5%;
+    background-color: #FFFFED;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding-top: 200px;
+    margin-top: -100px;
+}
+
+.main_fitness {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card_fitness {
+    width: 340px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fitness_bt {
+    margin: auto;
+}
+
+/*=================================FOOTER===============================*/
+footer {
+    display: flex;
+    padding-left: 15%;
+    margin: auto;
+    gap: 150px;
+    padding-bottom: 100px;
+    padding-top: 250px;
+    background-color: #C2CCF2;
+    margin-top: -150px;
+}
+
+.footer_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.footer_div a {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    width: max-content;
+}
+
+.footer_div a:hover {
+    text-decoration: underline;
+}
+
+/*=======================================================ADAPTIVE===========================================================*/
+@media (max-width:1504px) {
+    .img-dryer {
+        width: 25%;
+    }
+
+    .main_cards {
+        margin-bottom: 100px;
+    }
+    .prem-number {
+        left: 263px;
+    }
+    .prem_2 .prem-number, .prem_4 .prem-number{
+        left: 800px;
+    }
+    .prem_2 .prem-text {
+        margin-left: 200px;
+    }
+    .prem_1 .prem-text {
+        padding-right: 130px;
+    }
+    .prem_4 .prem-text {
+        margin-left: 0px;
+        padding-left: 205px;
+    }
+    .prem_5 .prem-text {
+        padding-right: 140px;
+    }
+
+}
+
+@media (max-width:1250px) {
+    .header_info {
+        padding-top: 85px;
+    }
+    .prem-number {
+        left: 163px;
+    }
+}
+
+@media (max-width:1240px) {
+    .header_h1 {
+        font-size: 40px;
+    }
+    .header_info img {
+        padding-top: 60px;
+    }
+    .header_info {
+        gap: 5px;
+    }
+    .prem-text {
+        width: 363px;
+    }
+    .img-dryer {
+        padding-top: -100px;
+    }
+    .prem-number {
+        left: 163px;
+    }
+    .prem_2 .prem-number, .prem_4 .prem-number{
+        left: 650px;
+    }
+    .prem_2 .prem-text {
+        margin-left: 200px;
+    }
+    .prem_1 .prem-text {
+        padding-right: 100px;
+    }
+    .prem_4 .prem-text {
+        margin-left: 0px;
+        padding-left: 205px;
+    }
+    .prem_5 .prem-text {
+        padding-right: 140px;
+    }
+}
+
+@media (max-width:925px) {
+    .logo {
+        width: 35px;
+    }
+
+    .header_h1 {
+        font-size: 35px;
+    }
+
+    .header_info {
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .p_nav {
+        font-size: 14px;
+    }
+
+    .header_info {
+        padding-top: 25px;
+    }
+
+    .header_button {
+        width: 200px;
+        height: 40px;
+    }
+
+    .header_button p {
+        font-size: 18px;
+    }
+
+    p,
+    .footer_div a {
+        font-size: 12px;
+    }
+
+    .header_text {
+        width: 238px;
+        gap: 20px;
+    }
+
+    .main_dryer img {
+        width: 90%;
+    }
+    .apples {
+        width: 20%;
+    }
+    .apple_img {
+        width: 70%;
+    }
+    h2 {
+        font-size: 276.55px;
+    }
+    .prem-img img {
+        width: 70%;
+    }
+    .prem-number {
+        left: 103px;
+    }
+    .prem_2 .prem-number, .prem_4 .prem-number{
+        left: 520px;
+    }
+    .prem_2 .prem-number {
+        margin-top: -55px;
+    }
+    .prem_2 .prem-text {
+        margin-left: 40px;
+        padding-top: 120px;
+    }
+    .prem_1 .prem-text {
+        padding-right: 80px;
+    }
+    .prem_4 .prem-text {
+        margin-left: 0px;
+        padding-left: 105px;
+    }
+    .prem_5 .prem-text {
+        padding-right: 80px;
+    }
+    .prem-text {
+        padding-top: 120px;
+    }
+    .prem-img {
+    display: flex;
+    justify-content: center;
+    }
+    .main_prem {
+        margin-bottom: 150px;
+    }
+    .main_dryer img {
+        width: 95%;
+    }
+    .main_dryer {
+        padding: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+}
+@media (max-width:680px) {
+    header {
+        background-size: 150%;
+        background-position-y: -0.5px;
+        padding-bottom: 100px;
+        background-position-x: -200px;
+    }
+    .header_info {
+        padding-left: 25px;
+        padding-top: 35px;
+        gap: 5px;
+    }
+    .main_prem {
+        gap: 200px;
+    }
+    .prem_2 .prem-number, .prem_4 .prem-number{
+        left: 103px;
+    }
+    .main_prem {
+        margin-top: 220px;
+    }
+    .prem {
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+    .prem-number {
+        margin-top: -160px;
+    }
+    .prem_1 .prem-text {
+        padding-right:0;
+    }
+    .prem_2 .prem-text {
+        padding-top: 0px;
+        margin-left: 0px;
+        margin: auto;
+    }
+    .prem_2, .prem_4{
+        flex-direction: column-reverse;
+    }
+    .prem_2 .prem-number {
+        margin-top: -365px;
+    }
+    .prem_3 .prem-number {
+        margin-top: -145px;
+    }
+    
+    .prem_3 .prem-text {
+        padding-left: 0px;
+    }
+    .prem-text {
+        padding-top: 20px;
+    }
+    .prem_4 .prem-number {
+        margin-top: -362px;
+    }
+    .prem_4 .prem-text {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .prem_5 .prem-number {
+        margin-top: -165px;
+    }
+    
+    .prem_5 .prem-text {
+        padding-right: 0px;
+    }
+    nav {
+        padding-left: 25px;
+        gap: 25px;
+    }
+    .main_cards {
+        gap: 13x;
+    }
+    .card {
+        width: 130px;
+        height: 200px;
+        gap: 22px;
+    }
+    .card h4 {
+        height: 160px;
+        width: 150px;
+    }
+    .header_sush_text {
+        line-height: 23px;
+    }
+}
+@media (max-width:480px) {
+    header {
+        background-size: 210%;
+        background-position-y: -0.5px;
+        padding-bottom: 100px;
+        background-position-x: -320px;
+    }
+    .img-dryer {
+        width: 35%;
+    }
+    .footer_div {
+        gap: 15px;
+    }
+    footer {
+        gap: 100px;
+    }
+}
